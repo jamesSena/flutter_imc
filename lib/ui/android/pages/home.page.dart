@@ -22,6 +22,28 @@ class _HomePageState extends State<HomePage> {
               ),
               keyboardType: TextInputType.number,
             ),
+          ),
+           Padding(
+            padding: EdgeInsets.all(20),
+            child: TextFormField(
+              decoration: InputDecoration(
+                labelText: "Peso",
+              ),
+              keyboardType: TextInputType.number,
+            ),
+          ),
+          Padding(
+            padding: EdgeInsets.all(20),
+            child: FlatButton(
+              color: Theme.of(context).primaryColor,
+              child: Text(
+                "Calcular",
+                style: TextStyle(
+                  color: Colors.white
+                ),
+              ),
+              onPressed: ()=>{},
+            ),
           )
         ],
       ),

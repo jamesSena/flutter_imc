@@ -23,7 +23,7 @@ class _HomePageState extends State<HomePage> {
               keyboardType: TextInputType.number,
             ),
           ),
-           Padding(
+          Padding(
             padding: EdgeInsets.all(20),
             child: TextFormField(
               decoration: InputDecoration(
@@ -32,6 +32,15 @@ class _HomePageState extends State<HomePage> {
               keyboardType: TextInputType.number,
             ),
           ),
+          Padding(
+            padding: EdgeInsets.all(20),
+            child: Text(
+              "Você está fora de forma",
+              textAlign: TextAlign.center
+            ),
+
+          ),
+
           Padding(
             padding: EdgeInsets.all(20),
             child: FlatButton(

@@ -50,7 +50,7 @@ class _HomePageState extends State<HomePage> {
               child: Text(
                 "Calcular"
               ),
-              onPressed: ()=>{},
+              onPressed: bloc.calculate(),
             ),
           )
         ],
